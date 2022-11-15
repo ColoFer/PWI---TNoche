@@ -1,0 +1,69 @@
+/*Selectores*/
+/*Selector por etiqueta*/
+/*a todos los elementos <p> les asigna las propiedades definidas*/
+body{
+    background-color: #3498db;
+    background-image: url(../Clase\ 1/Imagen1.png);
+}
+p{
+    color: red;
+    background-color: grey;
+}
+button{
+    background-color: yellowgreen;
+    margin-top: 100px;
+}
+h1{
+    background-color: rgb(210,115,50);
+    width: 400px;
+}
+a{
+    background-color: tomato;
+    padding: 10px;
+    border: black 2px solid;
+    border-radius: 10px;
+    
+}
+/*Selectores de Clases*/
+/* .nombreDeLaClase*/
+.textoVioleta{
+    color: #ee82ee;
+}
+.textoAmarillo{
+    color: yellow;
+}
+
+/*Selectores por id*/
+#unTexto{
+    background-color: rgba(0,0,250,0.9);
+}
+
+/*Para definir colores:
+    ROJO-VERDE-AZUL
+    255 numero mas alto de colores
+-hexadecimal: 6 digitos, se escribe con #, con letras de A-F y 0-9
+-rgb (red green blue) - rgba (la a agrega transparencia, va del 0 (mas transparente) al 1 (menos transparente))
+-colores predefinidos por CSS
+*/
+
+/*Tamaño
+-Porcentajes(%): toma como 100% la medida del padre para saber cuanto va a valer el hijo 
+-Pixeles: 
+-vh/vw:view height -> representa el alto de la pantalla (%). view width -> representa el ancho de la pantalla (%)
+*/
+img{
+    width: 30% ;
+    height: 20vh;
+}
+ul{
+    width: 800px;
+    height: 100px;
+}
+div{
+    width: 1000px;
+    height: 200px;
+    background-color: black;
+}
+imgDiv{
+    width: 100%;
+}
