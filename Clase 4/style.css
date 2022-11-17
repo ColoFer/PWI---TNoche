@@ -1,0 +1,25 @@
+body{
+    background-color: lightcoral;
+}
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: overline;
+    text-shadow: 3px 3px gray;
+}
+h2{
+    text-align: justify;
+    width: 15%;
+    background-color: green;
+}
+a{
+    text-decoration: none;
+}
+button{
+    box-shadow: 5px 5px 5px aqua;
+}
