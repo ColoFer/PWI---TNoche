@@ -1,0 +1,58 @@
+.container{
+    background-color: lightblue;
+    height: 300px;
+}
+.cubo{
+    width: 150px;
+    height: 150px;
+    background-color: brown;
+    border: 2px solid black;
+    margin: 10px;
+    font-size: large;
+    font-weight:bolder;
+}
+
+/* Relative */
+/* top-left-right-bottom */
+.uno{
+    background-color: orange;
+    position: relative;
+    top: 50px;
+    left: 200px;
+}
+
+/* Absolute: busca el padre con position relative mas cercano y lo toma como referencia para ubicarse. Si no hay ninguno toma al body. */
+.dos{
+    background-color: violet;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+/* EJEMPLO DE USO DE position:absolute */
+.fondo{
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+}
+.textoInterno{
+    position: absolute;
+    top: 50px;
+    left: 35px;
+}
+
+/* Fixed: toma de referencia al body para ubicar al elemento en las coordenadas establecidas. */
+.tres{
+    background-color: yellowgreen;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 1; /* indicarle que tan encima va a estar de los demas elementos. Cuanto mas grande el numero, mas "adelante" se encuentra. Utiliza numeros enteros. */
+}
+
+/* Sticky */
+.cuatro{
+    position: sticky;
+    top: 10px;
+    z-index: 2;
+}
