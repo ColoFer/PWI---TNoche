@@ -32,6 +32,14 @@ body{
 
 }
 
+.contenedor-tarjetas-recientes{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    justify-content: space-between;
+    align-items: center;
+}
 .tarjeta{
     border: 2px solid #052d46;
     border-radius: 10px;
